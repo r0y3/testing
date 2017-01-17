@@ -7,7 +7,7 @@
 FROM python:latest
 
 # Author: Dr. Peter
-MAINTAINER Dr. Peter <peterindia@gmail.com>
+MAINTAINER Roy Evangelista <royevangelista@gmail.com>
 
 # Install redis driver for python and the redis mock
 RUN pip install redis && pip install mockredispy
